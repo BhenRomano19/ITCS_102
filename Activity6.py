@@ -11,3 +11,23 @@ b = int(input("second Number ---"))
 print("sum",a + b)
 print("difference", a - b)
 print("product", a * b)
+
+# int(), or eval(), float()
+x = int(input("random number ----"))
+
+sum = x + 8
+
+print("total sum", sum)
+print(type(x))
+
+b = eval(input("random number ----"))
+
+sum = b + 8
+print("total sum", sum)
+print(type(b))
+
+c = float(input("random number ----"))
+sum = c + 8
+
+print("total sum", sum)
+print(type(c))
