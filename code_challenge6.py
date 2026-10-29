@@ -1,6 +1,6 @@
 s = int(input("Enter a number: "))
 a = 0
-for x in range (5):
+for x in range (1000000000000000):
     if a != s:
         for y in range (x+1):
             if a != s:
